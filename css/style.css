@@ -1,0 +1,79 @@
+/* :root {
+        --var
+}*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #70747A;
+}
+
+
+.navbar-container {
+    width: 100%;
+    background-color: #232A31;
+    height: 80px;
+    /*em=representa uma vez o tamanha da fonte definida no elemento pai. Ex. Se no pai foi definida a fonte de 10px e o filho tem 1em, o tamanho do filho será de 10px e assim por diante. Caso o pai não tenha um tamanho definido ele irá usar como base 16px que é a fonte do navegador*/
+    padding: 0 2em;
+    /*impede que a propriedade padding faça o elemento crescer de tamanho. Ex. Se um padding de 10px for usado em um elemento de 200px de largura e 200px de altura ele irá fazer o elemento ter 220px de largura por 200px de altura aumento o tamanho do elemento. Quando usamos o box-sizing:border-box esse aumento de tamanho não irá acontecer pois o espaço do padding será descontado do elemento pai.*/
+    box-sizing: border-box;
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 15px;
+}
+
+nav {
+    position: relative;
+}
+
+.navbar-items {
+    position: absolute;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    right: 0;
+    height: 80px;
+    /*line-height: altera o espaçamento entre as linhas do texto. Quando se usa um line-height da mesma altura do elemento ele centraliza automaticamente.*/
+    line-height: 80px;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.navbar-items li a:hover {
+    color: #cccccc;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+
+.main-banner {
+    background-image: url('../img/mainbanner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10em 0;
+    background-position: center;
+}
