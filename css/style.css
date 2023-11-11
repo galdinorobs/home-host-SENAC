@@ -166,7 +166,7 @@ nav {
 }
 
 .plan {
-    max-width: 300px;
+    width: 300px;
     margin: 0 20px;
 }
 
@@ -230,4 +230,76 @@ nav {
     font-size: 42px;
     margin-top: 0;
     margin-bottom: 15px;
+}
+
+.searchdomain-container p {
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomain-container input[type=text] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.searchdomain-container input[type=submit] {
+    background-color: #2cc76a;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+}
+
+/*CONTATO*/
+
+.contact-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    /*1º valor= top 2º valor= esquerda e direita 3º valor= bottom*/
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 468px;
+    height: 150px;
+}
+
+.contact-container input[type=submit] {
+    background-color: #2cc76a;
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 20px;
 }
