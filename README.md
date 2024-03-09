@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-https://robsantox.github.io/home-host-SENAC/
+https://galdinorobs.github.io/home-host-SENAC/
 
 O Homehost representa o marco inicial do curso Técnico de Desenvolvimento de Sistemas do Senac Santos.
 
